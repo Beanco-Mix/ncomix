@@ -13,16 +13,10 @@ store and access links to categories and tags
 
 from __future__ import annotations
 
-import csv
-import json
-import random
-import sys
+
 import time
 from io import BytesIO
 from PIL import Image
-from dataclasses import dataclass
-from datetime import datetime, timezone
-from enum import Enum, unique
 from pathlib import Path
 from typing import Iterator, List, Tuple
 from urllib.parse import urljoin, urlparse
