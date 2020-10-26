@@ -13,7 +13,7 @@ store and access links to categories and tags
 
 from __future__ import annotations
 
-
+import sys
 import time
 from io import BytesIO
 from PIL import Image
